@@ -124,6 +124,10 @@ CHROMA_PORT=8001
 Run database migrations:
 
 ```cmd
+# 1. Generate the migration file from your models
+alembic revision --autogenerate -m "create initial tables"
+
+# 2. Apply it to your live Postgres database
 alembic upgrade head
 ```
 
