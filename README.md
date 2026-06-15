@@ -78,7 +78,7 @@ Install these before running the project:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ai-observability.git
+git clone https://github.com/hamzaN1/ai-observability-dashboard.git
 cd ai-observability
 ```
 
